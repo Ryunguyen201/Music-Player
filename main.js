@@ -321,11 +321,15 @@ const data = {
                 body.classList.add('dark-mode');
                 dashboard.style.backgroundColor = "#000";
                 playList.style.backgroundColor = "#000";
+                settingBtn.style.color = "#fff";
+                searchBtn.style.color = "#fff";
             }
             else {
                 dashboard.style.backgroundColor = "#fff";
                 playList.style.backgroundColor = "#fff";
                 body.classList.remove('dark-mode');
+                settingBtn.style.color = "#000";
+                searchBtn.style.color = "#000";
             }
         }
     },

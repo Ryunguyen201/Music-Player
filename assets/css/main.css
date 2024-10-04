@@ -46,10 +46,6 @@ html {
     z-index: 1;
 }
 
-.dashboard .active {
-    background-color: #000;
-}
-
 .search {
     position: relative;
     display: flex;
@@ -217,7 +213,7 @@ header {
 }
 
 .btn-repeat {
-    
+
 }
 .btn-prev {
     
